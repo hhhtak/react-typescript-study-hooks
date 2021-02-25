@@ -1,11 +1,13 @@
 import { requests } from './request'
 import { Row } from './components/Row'
 import { Banner } from './components/Banner'
+import { Navigation } from './components/Navigation'
 import './App.css'
 
 function App() {
   return (
     <div className="App">
+      <Navigation />
       <Banner />
       <Row
         title="NETFLIX ORIGINALS"
