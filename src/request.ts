@@ -1,5 +1,5 @@
 // set API_KEY
-const API_KEY = ''
+export const API_KEY = ''
 
 export const requests = {
   fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-us`,
