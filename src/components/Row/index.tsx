@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import YouTube from 'react-youtube'
-import axios from '../axios'
-import { API_KEY } from '../request'
+import axios from '../../axios'
+import { API_KEY } from '../../request'
 import './Row.css'
 
 const imageUrl = 'https://image.tmdb.org/t/p/original'
